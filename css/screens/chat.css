@@ -131,15 +131,16 @@
   padding: 8px 20px;
 }
 .reply .reply__column:first-child {
-  width: 8%;
+  width: 10%;
 }
 .reply .reply__column:last-child {
-  width: 92%;
+  width: 90%;
+  margin-right: 25px;
   position: relative;
 }
 .reply input {
   padding-left: 10px;
-  height: 30px;
+  height: 35px;
   border-radius: 15px;
   border: var(--main-border);
   width: 100%;
@@ -152,7 +153,7 @@
   opacity: 0;
 }
 input:focus {
-  width: 98vw;
+  width: 96vw;
   transform: translateX(-8.5%);
 }
 .reply:focus-within button {
@@ -165,11 +166,11 @@ input:focus {
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -12px;
+  right: -33px;
   top: 2px;
 }
 .reply__column:last-child > i {
-  right: 30px;
+  right: 10px;
   top: 10px;
 }
 .reply__column button {

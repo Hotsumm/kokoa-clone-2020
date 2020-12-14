@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Play List - Kokoa Clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <div class="screen">
+        <div class="screen-title">
+          <a href="#" onclick="history.back()"><i class="fas fa-arrow-left fa-2x"></i></a>
+          <i class="fas fa-search fa-lg"></i>
+        </div>
+        <div class="screen-img">
+          <img src="https://www.irishtimes.com/polopoly_fs/1.2742808.1470156550!/image/image.jpg_gen/derivatives/box_620_330/image.jpg"/>
+        </div>
+        <div class="screen-singer">
+          <div class="screen-singer__title">
+            Frank ocean
+          </div>
+          <div class="screen-singer__type">
+            R&B, Hip-Hop
+          </div>
+
+        </div>
+        <div class="screen-btn">
+          <button class="screen-btn__shuffle">
+            Shuffle
+          </button>
+          <button class="screen-btn__heart">
+            <i class="fas fa-heart"></i>
+            <span>212,971</span>
+          </button>
+        </div>
+        <div class="screen-play-lists">
+          <div class="screen-play-list">
+            <div class="screen-play-list__column">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Blonde_-_Frank_Ocean.jpeg/220px-Blonde_-_Frank_Ocean.jpeg"/>
+            </div>
+            <div class="screen-play-list__column">
+              <span>Frank ocean</span>
+              <span>Self control</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-play-list">
+            <div class="screen-play-list__column">
+              <div class="screen-play-list__img">
+              <img src="https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg"/>
+              <i class="fas fa-signal"></i>
+              </div>
+            </div>
+            <div class="screen-play-list__column">
+              <span>Frank ocean</span>
+              <span>Super rich kids</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-play-list">
+            <div class="screen-play-list__column">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Blonde_-_Frank_Ocean.jpeg/220px-Blonde_-_Frank_Ocean.jpeg"/>
+            </div>
+            <div class="screen-play-list__column">
+              <span>Frank ocean</span>
+              <span>Pink + White</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-play-list">
+            <div class="screen-play-list__column">
+              <img src="https://i1.sndcdn.com/artworks-000284970797-70ewex-t500x500.jpg"/>
+            </div>
+            <div class="screen-play-list__column">
+              <span>Frank ocean</span>
+              <span>Higgs</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="screen-play-bar">
+          <div class="screen-play-bar__column">
+            <span>Frank ocean</span>
+            <span>Super rich kids</span>
+          </div>  
+          <div class="screen-play-bar__column">
+            <i class="fas fa-angle-double-left fa-1x"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-angle-double-right fa-1x"></i>
+          </div>  
+        </div>
+      </div>
+      <div id="no-mobile">
+        <span>Sorry, Your screen is too big </span>
+    </div>
+  </body>
+</html>
